@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+if [[ $1 == "" ]]; then
+	nvim ~/docs/fucks/what.md
+else
+	nvim ~/docs/fucks/$1.md
+fi
+
